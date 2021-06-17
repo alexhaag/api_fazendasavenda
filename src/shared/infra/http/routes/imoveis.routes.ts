@@ -5,7 +5,7 @@ const imoveisRouter = Router();
 
 imoveisRouter.post('/', () => { });
 
-imoveisRouter.get('/', () => { });
+imoveisRouter.get('/', () => { console.log("chegouuu..."); });
 
 
 export { imoveisRouter };

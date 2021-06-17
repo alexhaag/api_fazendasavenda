@@ -2,8 +2,8 @@
   "type": "postgres",
   "port": 5432,
   "host": "localhost",
-  "username": "docker",
-  "password": "postgres",
+  "username": "fazendasavenda",
+  "password": "fazendasavenda",
   "database": "fazendasavenda",
   "migrations": [
     "./src/shared/infra/typeorm/migrations/*.ts"

@@ -4,7 +4,7 @@ import express, { NextFunction, Request, Response } from 'express';
 // depois do express
 import "express-async-errors";
 
-import "@shared/container";
+// import "@shared/container";
 import { AppError } from "@shared/errors/AppError";
 
 import createConnection from "@shared/infra/typeorm";
